@@ -1,0 +1,23 @@
+.contact {
+    @media (max-width: 768px) {
+        h2 {
+            font-size: 6.25rem;
+        }
+        div {
+            form {
+                font-size: 2rem;
+                fieldset {
+                    input {
+                        width: 47.5rem;
+                    }
+                    textarea {
+                        width: 47.5rem;
+                    }
+                    button {
+                        width:  9.375rem;
+                    }
+                }
+            }
+        }
+    }
+}

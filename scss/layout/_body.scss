@@ -1,0 +1,5 @@
+body {
+    @include grid(1fr, 6.25rem 1fr 18.75rem);
+    background-color: $bg-main;
+    height: 100vh;
+}

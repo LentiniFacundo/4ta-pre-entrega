@@ -1,0 +1,19 @@
+.profile {
+@media (max-width: 1024px) {
+    div {
+        &:nth-child(2) {
+            h2 {
+                font-size: 3.75rem;
+            }
+        }
+    }
+}
+}
+
+.who-is {
+    @media (max-width: 1024px) {
+        p {
+            font-size: 2.5rem;
+        }
+    }
+}

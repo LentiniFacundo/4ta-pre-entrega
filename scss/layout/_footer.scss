@@ -1,0 +1,44 @@
+footer {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    align-self: flex-end;
+    width: 100%;
+}
+.info {
+    @include flex(row, center, center);
+    gap: 2.5rem;
+    margin: 0.9375rem 0;
+    .footer-div {
+        @include flex(column, center, center);
+        width: 50%;
+        height: 12.5rem;
+        border: solid 0.125rem $main-text;
+        border-radius: 0.9375rem;
+        h2 {
+            color: map-get($typografy-colors , h2 );
+            font-family: $subtitle-text;
+        }
+        p {
+            font-family: $main-text;
+            color: $main-text;
+            text-align: center;
+            a {
+                text-decoration: none;
+                color: $main-text;
+                &:hover {
+                    color: map-get($typografy-colors, h2 );
+                }
+            }
+        }
+    }
+}
+
+.social {
+    @include flex(row, center, center);
+    gap: 1.25rem;
+    margin: 1.5625rem;
+    img {
+        width: 1.25rem;
+        height: 1.25rem;
+    }
+}

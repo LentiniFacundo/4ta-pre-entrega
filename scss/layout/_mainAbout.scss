@@ -1,0 +1,20 @@
+
+.about {
+    @include flex(column, center, center);
+    width: 100%;
+    h2 {
+        color: map-get($typografy-colors, h2 );
+        font-size: 3.125rem;
+        font-family: $bebas-neue-font;
+    }
+    div {
+        width: 75%;
+        p {
+            margin: 100px 0;
+            font-family: "Roboto", sans-serif;
+            font-size: 1.5625rem;
+            color: $main-text;
+        }
+    }
+
+}

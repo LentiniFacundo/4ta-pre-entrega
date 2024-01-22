@@ -1,0 +1,46 @@
+.contact {
+    @include flex (column, center, center);
+    h2 {
+        font-family: $bebas-neue-font;
+        color: map-get($typografy-colors, h2 );
+        font-size: 3.125rem;
+    }
+    div {
+        margin: 6.25rem 0;
+        width: 75%;
+        form {
+            fieldset {
+                @include flex (column, center, center);
+                gap: 10px;
+                label {
+                    font-family: $subtitle-text;
+                    color: $main-text;
+                    font-weight: bolder;
+                }
+                input {
+                    width: 31.25rem;
+                    background-color: $bg-main;
+                    border: solid 0.125rem;
+                    border-color: $main-text;
+                    color: $main-text;
+                }
+                textarea {
+                    width: 31.25rem;
+                    background-color: $bg-main;
+                    border: solid 0.125rem;
+                    border-color: $main-text;
+                    color: $main-text;
+                }
+                button {
+                    font-family: $subtitle-text;
+                    color: $main-text;
+                    font-weight: bolder;
+                    width: 5rem;
+                    background-color: $bg-main;
+                    border: solid 0.125rem;
+                    border-color: $main-text;
+                }
+            }
+        }
+    }
+}

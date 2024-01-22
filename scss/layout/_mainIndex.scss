@@ -1,0 +1,47 @@
+main {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    margin-bottom: 6.25rem;
+
+};
+
+.profile {
+    @include flex(column, center, center);
+    div {
+        &:nth-child(1) {
+            width: 18.75rem;
+            height: 18.75rem;
+            border: 5px solid $main-text;
+            border-radius: 100%;
+            overflow: hidden;
+        };
+        img {
+            width: 100%;
+        };
+        &:nth-child(2) {
+            h1 {
+                color: map-get($typografy-colors, h1);
+                font-family: $bebas-neue-font;
+                font-size: 6.25rem;
+                text-align: center;
+            };
+            h2 {
+                font-family: $ubuntu;
+                color: map-get($typografy-colors, h2);
+                font-size: 2.5rem;
+                text-align: center;
+            };
+        };
+    };
+};
+
+.who-is {
+    @include flex(column, center, center);
+    p {
+        width: 75%;
+        margin: 6.25rem 0;
+        font-family: "Roboto", sans-serif;
+        font-size: 1.5625rem;
+        color: $main-text;
+    };
+}

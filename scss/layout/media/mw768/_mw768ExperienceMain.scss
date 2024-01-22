@@ -1,0 +1,17 @@
+.experience {
+    @media (max-width: 768px) {
+        margin-bottom: 6.25rem;
+        h2 {
+            font-size: 6.25rem;
+        }
+        h3 {
+            font-size: 2.5rem;
+        }
+        div {
+            width: 90%;
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+}

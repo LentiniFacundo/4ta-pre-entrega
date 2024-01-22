@@ -1,0 +1,13 @@
+.projects {
+    @include flex (column, center, center);
+    width: 100%;
+    margin-bottom: 6.25rem;
+    .projects-container {
+        width: 80%;
+    }
+    h2 {
+        font-family: $bebas-neue-font;
+        color: map-get($typografy-colors, h2 );
+        font-size: 3.125rem;
+    }
+}

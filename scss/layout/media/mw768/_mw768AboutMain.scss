@@ -1,0 +1,10 @@
+.about {
+    @media (max-width: 768px) {
+        div {
+            width: 90%;
+            p {
+                font-size: 2rem;
+            }
+        }
+    }
+}

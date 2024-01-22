@@ -1,0 +1,7 @@
+@media (max-width: 375px) {
+    body {
+        @include grid(1fr, 6.25rem 1fr 26.25rem);
+        background-color: $bg-main;
+        height: 100vh;
+    }
+}

@@ -1,0 +1,17 @@
+/* 
+los mixins se declaran con '@' y son para reutilizar bloques de codigo donde queramos
+y se llaman con '@include + nombre del mixin'
+*/
+
+@mixin flex ($direct, $justify, $align) {
+    display: flex;
+    flex-direction: $direct;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin grid ($temp-col, $temp-row) {
+    display: grid;
+    grid-template-columns: $temp-col;
+    grid-template-rows: $temp-row;
+}

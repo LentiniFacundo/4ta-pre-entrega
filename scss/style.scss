@@ -1,0 +1,43 @@
+
+/* 1º utilities */
+@import "./utilities/_mixins";
+@import "./utilities/_variables";
+@import "./utilities/maps";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+/* 2º layout y base */
+@import "./base/_reset";
+@import "./base/fonts";
+@import "./layout/body";
+@import "./layout/_header";
+@import "./layout/_footer";
+@import "./layout/mainAbout";
+@import "./layout/_mainIndex";
+@import "./layout/mainProjects";
+@import "./layout/mainExperience";
+@import "./layout/mainContact";
+/* media */
+@import "./layout/media/mw1024/mw1024boutMain";
+@import "./layout/media/mw1024/mw1024ExperienceMain";
+@import "./layout/media/mw1024/mw1024ContactMain";
+@import "./layout/media/mw1024/mw1024ProjectsMain";
+@import "./layout/media/mw1024/mw1024IndexMain";
+@import "./layout/media/mw1024/mw1024Navbar";
+@import "./layout/media/mw1024/mw1024Footer";
+/* 768px */
+@import "./layout/media/mw768/mw768IndexMain";
+@import "./layout/media/mw768/mw768IndexMain";
+@import "./layout/media/mw768/mw768ExperienceMain";
+@import "./layout/media/mw768/mw768ContactMain";
+@import "./layout/media/mw768/mw768Footer";
+/* 665 */
+@import "./layout/media/mw665/mw665Footer";
+/* 375 */
+@import "./layout/media/mx375/mw375Body";
+@import "./layout/media/mx375/mw375IndexMain";
+@import "./layout/media/mx375/mw375Footer";
+@import "./layout/media/mx375/mw375AboutMain.scss";
+@import "./layout/media/mx375/mw375ContactMain";
+@import "./layout/media/mx375/mw375ExperienceMain";
+@import "./layout/media/mx375/mw375ProjectsMain";
+/* 3º componentes */
+@import "./components/bs-toggler-icon"
