@@ -3,8 +3,8 @@
 @import "./utilities/_mixins";
 @import "./utilities/_variables";
 @import "./utilities/maps";
-/* @import "./node_modules/bootstrap/scss/bootstrap.scss";
- *//* 2º layout y base */
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+/* 2º layout y base */
 @import "./base/_reset";
 @import "./base/fonts";
 @import "./layout/body";
