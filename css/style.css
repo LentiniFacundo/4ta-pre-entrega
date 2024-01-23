@@ -295,16 +295,18 @@ main {
         font-size: 2rem; } }
 
 @media (max-width: 768px) {
-  .contact h2 {
-    font-size: 6.25rem; }
-  .contact div form {
-    font-size: 2rem; }
-    .contact div form fieldset input {
-      width: 47.5rem; }
-    .contact div form fieldset textarea {
-      width: 47.5rem; }
-    .contact div form fieldset button {
-      width: 9.375rem; } }
+  .contact {
+    margin-bottom: 6.25rem; }
+    .contact h2 {
+      font-size: 6.25rem; }
+    .contact div form {
+      font-size: 2rem; }
+      .contact div form fieldset input {
+        width: 47.5rem; }
+      .contact div form fieldset textarea {
+        width: 47.5rem; }
+      .contact div form fieldset button {
+        width: 9.375rem; } }
 
 @media (max-width: 768px) {
   .footer-div {
