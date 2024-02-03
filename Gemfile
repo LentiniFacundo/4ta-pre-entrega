@@ -1,6 +1,0 @@
-source 'https://rubygems.org'
-gem 'nokogiri'
-gem 'rack', '~> 2.2.4'
-gem 'rspec'
-gem 'racc', '~> 1.4.14'
-gem 'bootstrap', '~> 5.3.2'
