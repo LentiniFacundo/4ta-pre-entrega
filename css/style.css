@@ -9670,6 +9670,10 @@ main {
       width: 3rem;
       height: 3rem; } }
 
+@media (max-width: 665px) {
+  .error404 section {
+    margin: 0 0 150px; } }
+
 /* 375 */
 @media (max-width: 375px) {
   body {
@@ -9743,6 +9747,22 @@ main {
 @media (max-width: 375px) {
   .projects h2, .projects .h2 {
     font-size: 3.125rem; } }
+
+@media (max-width: 375px) {
+  .error404 section {
+    margin: 0; }
+    .error404 section div:nth-child(1) {
+      width: 180px;
+      height: 180px; }
+      .error404 section div:nth-child(1) h1, .error404 section div:nth-child(1) .h1 {
+        font-size: 2.5rem; }
+    .error404 section div:nth-child(2) h2, .error404 section div:nth-child(2) .h2 {
+      font-size: 1.25rem;
+      text-align: center; }
+    .error404 section div:nth-child(2) div {
+      width: 60%; }
+      .error404 section div:nth-child(2) div img {
+        width: 100%; } }
 
 /* 3º componentes */
 .navbar-light .navbar-toggler-icon {
