@@ -1,0 +1,53 @@
+.error404 {
+    width: 100%;
+    section {
+        @include flex (column, center, center);
+        width: 100%;
+        div:nth-child(1) {
+            width: 15.625rem; 
+            height: 15.625rem; 
+            border: 0.4375rem solid map-get($typografy-colors, h2);
+            transform: rotate(45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 3.125rem 0;
+            animation: infinite fleak 2s;
+                @keyframes fleak {
+                    0%, 100% {
+                        opacity: 100%;
+                    }
+                    50% {
+                        opacity: 50%;
+                    }
+                }
+            h1 {
+                color: map-get($typografy-colors, h2 );
+                font-size: 3.125rem;
+                transform: rotate(-45deg);
+            }
+        }
+        div:nth-child(2) {
+            @include flex (column, center, center);
+            margin: 1.25rem 0;
+            h2 {
+                color: $main-text;
+            }
+            div {
+                width: 60%;
+                img {
+                    width: 100%;
+                }
+            }
+            a {
+                color: $main-text;
+                text-decoration: none;
+                &:hover {
+                    color: map-get($typografy-colors, h2 );
+                    transition: 0.5s ease;
+                }
+            }
+        }
+    }
+}
