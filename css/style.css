@@ -9507,6 +9507,54 @@ main {
         border: solid 0.125rem;
         border-color: rgba(148, 163, 184, 0.897); }
 
+.error404 {
+  width: 100%; }
+  .error404 section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; }
+    .error404 section div:nth-child(1) {
+      width: 15.625rem;
+      height: 15.625rem;
+      border: 0.4375rem solid crimson;
+      transform: rotate(45deg);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 3.125rem 0;
+      animation: infinite fleak 2s; }
+
+@keyframes fleak {
+  0%, 100% {
+    opacity: 100%; }
+  50% {
+    opacity: 50%; } }
+      .error404 section div:nth-child(1) h1, .error404 section div:nth-child(1) .h1 {
+        color: crimson;
+        font-size: 3.125rem;
+        transform: rotate(-45deg); }
+    .error404 section div:nth-child(2) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1.25rem 0; }
+      .error404 section div:nth-child(2) h2, .error404 section div:nth-child(2) .h2 {
+        color: rgba(148, 163, 184, 0.897); }
+      .error404 section div:nth-child(2) div {
+        width: 60%; }
+        .error404 section div:nth-child(2) div img {
+          width: 100%; }
+      .error404 section div:nth-child(2) a {
+        color: rgba(148, 163, 184, 0.897);
+        text-decoration: none; }
+        .error404 section div:nth-child(2) a:hover {
+          color: crimson;
+          transition: 0.5s ease; }
+
 /* media */
 @media (max-width: 1024px) {
   .about h2, .about .h2 {
